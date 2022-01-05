@@ -6,9 +6,62 @@ body{
 }
 .title{
     text-align: center;
+    color: green;
 }
 .parent{
     display: flex;
+    align-items: center;
     width: 90%;
     margin: 0 auto;
+}
+.details_btn{
+    padding: 15px 30px;
+    background-image: linear-gradient(45deg, rgb(120, 241, 7),red,yellow);
+    border-radius: 10px;
+    transition: .5s;
+}
+.details_btn:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.left_side{
+    width: 50%;
+}
+.right-side{
+    width: 50%;
+}
+.animation_wraper{
+    width: 60%;
+    margin: auto;
+}
+.second_section{
+    text-align: center;
+}
+.dhaka{
+    width: 250px;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 12px gray;
+    border-radius: 10px;
+}
+.dhk_img img{
+    width: 100%;
+}
+.all_division{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.button_section{
+    padding: 15px;
+}
+.button_color{
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: .8s;
+}
+.button_color:hover {
+    background-color: blue;
+    color: white;
 }

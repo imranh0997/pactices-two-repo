@@ -1,7 +1,14 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 .title{
     text-align: center;
+}
+.parent{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
 }
